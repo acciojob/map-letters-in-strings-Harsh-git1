@@ -15,5 +15,5 @@ function mapLetters(str) {
 }
 
 const str = prompt("enter the string");
-alert(mapLetters(str));
+alert(JSON.stringify(mapLetters(str)));
 
